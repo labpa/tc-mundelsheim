@@ -1,48 +1,48 @@
 import React from "react";
-import {Container, Nav, Navbar, NavbarBrand, NavbarCollapse, NavbarToggle, NavDropdown} from "react-bootstrap";
-import {NavLink} from "react-router-dom";
+import { Container, Nav, Navbar, NavbarBrand, NavbarCollapse, NavbarToggle, NavDropdown } from "react-bootstrap";
+import { Link } from "react-router-dom"; // Import Link instead of NavLink
 
 const Navigation = () => {
-    return(
+    return (
         <Navbar expand={"lg"} className={"bg-body-tertiary"} bg={"dark"} data-bs-theme={"dark"}>
             <Container>
-                <NavbarBrand href={"/dashboardtennis"}>TC-Mundelsheim</NavbarBrand>
-                <NavbarToggle aria-controls={"basic-navbar-nav"}/>
+                <NavbarBrand as={Link} to="/dashboardtennis">TC-Mundelsheim</NavbarBrand>
+                <NavbarToggle aria-controls={"basic-navbar-nav"} />
                 <NavbarCollapse id={"basic-navbar-nav"}>
                     <Nav>
-                        {/*Über uns*/}
+                        {/* Über uns */}
                         <NavDropdown title="Über uns" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/verein">Der Verein</NavDropdown.Item>
-                            <NavDropdown.Item href="/mitgliedschaft">Mitgliedschaft</NavDropdown.Item>
-                            <NavDropdown.Item href="/jugend">Jugend</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/verein">Der Verein</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/mitgliedschaft">Mitgliedschaft</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/jugend">Jugend</NavDropdown.Item>
                         </NavDropdown>
 
-                        {/*Sport und Training*/}
+                        {/* Sport und Training */}
                         <NavDropdown title="Sport und Training" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/mannschaften">Mannschaften</NavDropdown.Item>
-                            <NavDropdown.Item href="/training">Training</NavDropdown.Item>
-                            <NavDropdown.Item href="/ergebnisse">Ergebnisse</NavDropdown.Item>
-                            <NavDropdown.Item href="tennisschule">Tennisschule</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/mannschaften">Mannschaften</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/training">Training</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/ergebnisse">Ergebnisse</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/tennisschule">Tennisschule</NavDropdown.Item>
                         </NavDropdown>
 
-                        {/*Aktuelles*/}
+                        {/* Aktuelles */}
                         <NavDropdown title="Aktuelles" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/termine">Termine</NavDropdown.Item>
-                            <NavDropdown.Item href="/aktuelles">Aktuelles</NavDropdown.Item>
-                            <NavDropdown.Item href="/berichte">Berichte</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/termine">Termine</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/aktuelles">Aktuelles</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/berichte">Berichte</NavDropdown.Item>
                         </NavDropdown>
 
-                        {/*Services*/}
+                        {/* Services */}
                         <NavDropdown title="Service" id="basic-nav-dropdown">
-                            <NavDropdown.Item href="/putzdienst">Putzdienst</NavDropdown.Item>
-                            <NavDropdown.Item href="/anfahrt">Anfahrt</NavDropdown.Item>
-                            <NavDropdown.Item href="service">Service und Links</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/putzdienst">Putzdienst</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/anfahrt">Anfahrt</NavDropdown.Item>
+                            <NavDropdown.Item as={Link} to="/service">Service und Links</NavDropdown.Item>
                         </NavDropdown>
                     </Nav>
-
                 </NavbarCollapse>
             </Container>
         </Navbar>
     );
 }
+
 export default Navigation;

@@ -16,3 +16,30 @@
     color: #EC7600; /* Dunkles Orange */
 
 }
+
+
+
+/* Navigation.css */
+/* Navigation.css */
+
+/* Style for dropdown items */
+.dropdown-item-orange {
+    background-color: #EC7600 !important; /* Set the orange color */
+    color: black !important; /* Change text color to white */
+}
+
+.dropdown-item-orange:hover {
+    background-color: #d86c00 !important; /* Darker shade on hover */
+    color: white !important; /* Keep text color white on hover */
+}
+
+/* Style for the dropdown menu when shown */
+.dropdown-menu.show {
+    background-color: #EC7600 !important; /* Set the background color to orange */
+}
+
+/* Optionally, set color for items in the dropdown menu */
+.dropdown-menu {
+    border: none; /* Remove border if desired */
+}
+

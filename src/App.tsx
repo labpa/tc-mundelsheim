@@ -30,7 +30,7 @@ const App: FC = () => {
             <div className="flex-grow-1">
                 <Routes>
                     {/*Dashboard*/}
-                    <Route path={"/"} element={<DashboardTennis />} />
+                    <Route path={"/tc-mundelsheim"} element={<DashboardTennis />} />
 
                     {/*Über uns*/}
                     <Route path={"/verein"} element={<Verein/>}/>

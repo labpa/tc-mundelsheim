@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/tc-mundelsheim/static/css/main.f8383485.css",
-    "main.js": "/tc-mundelsheim/static/js/main.72bb63b8.js",
-    "static/js/453.0a3e6f20.chunk.js": "/tc-mundelsheim/static/js/453.0a3e6f20.chunk.js",
-    "static/media/startbild.jpg": "/tc-mundelsheim/static/media/startbild.c0f5187d1ee76977902a.jpg",
-    "static/media/Jugendflyer.jpg": "/tc-mundelsheim/static/media/Jugendflyer.4ab3c8c27b639c8c37d7.jpg",
-    "static/media/Termine_2024.jpg": "/tc-mundelsheim/static/media/Termine_2024.781f78d4d47fddc6fc92.jpg",
-    "static/media/Vorstand2024.jpg": "/tc-mundelsheim/static/media/Vorstand2024.c50eb9abfded18982097.jpg",
-    "static/media/aktuelles.jpg": "/tc-mundelsheim/static/media/aktuelles.f0cceba84a5ecb1695e8.jpg",
-    "index.html": "/tc-mundelsheim/index.html",
-    "main.f8383485.css.map": "/tc-mundelsheim/static/css/main.f8383485.css.map",
-    "main.72bb63b8.js.map": "/tc-mundelsheim/static/js/main.72bb63b8.js.map",
-    "453.0a3e6f20.chunk.js.map": "/tc-mundelsheim/static/js/453.0a3e6f20.chunk.js.map"
+    "main.css": "/dashboardtennis/static/css/main.f8383485.css",
+    "main.js": "/dashboardtennis/static/js/main.646738c3.js",
+    "static/js/453.0a3e6f20.chunk.js": "/dashboardtennis/static/js/453.0a3e6f20.chunk.js",
+    "static/media/startbild.jpg": "/dashboardtennis/static/media/startbild.c0f5187d1ee76977902a.jpg",
+    "static/media/Jugendflyer.jpg": "/dashboardtennis/static/media/Jugendflyer.4ab3c8c27b639c8c37d7.jpg",
+    "static/media/Termine_2024.jpg": "/dashboardtennis/static/media/Termine_2024.781f78d4d47fddc6fc92.jpg",
+    "static/media/Vorstand2024.jpg": "/dashboardtennis/static/media/Vorstand2024.c50eb9abfded18982097.jpg",
+    "static/media/aktuelles.jpg": "/dashboardtennis/static/media/aktuelles.f0cceba84a5ecb1695e8.jpg",
+    "index.html": "/dashboardtennis/index.html",
+    "main.f8383485.css.map": "/dashboardtennis/static/css/main.f8383485.css.map",
+    "main.646738c3.js.map": "/dashboardtennis/static/js/main.646738c3.js.map",
+    "453.0a3e6f20.chunk.js.map": "/dashboardtennis/static/js/453.0a3e6f20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f8383485.css",
-    "static/js/main.72bb63b8.js"
+    "static/js/main.646738c3.js"
   ]
 }

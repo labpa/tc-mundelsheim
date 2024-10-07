@@ -4,7 +4,8 @@ import { Link } from "react-router-dom"; // Import Link instead of NavLink
 
 const Navigation = () => {
     return (
-        <Navbar expand={"lg"} className={"bg-body-tertiary"} bg={"dark"} data-bs-theme={"dark"}>
+        // <Navbar expand={"lg"} className={"bg-body-tertiary"} bg={"light"} data-bs-theme={"light"}>
+        <Navbar expand={"lg"} style={{ backgroundColor: "#EC7600" }} data-bs-theme={"light"}>
             <Container>
                 <NavbarBrand as={Link} to="/tc-mundelsheim">TC-Mundelsheim</NavbarBrand>
                 <NavbarToggle aria-controls={"basic-navbar-nav"} />

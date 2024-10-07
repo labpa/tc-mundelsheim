@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import { Routes, Route } from "react-router-dom";
-import Dashboard from "./Pages/Dashboard";
+import DashboardTennis from "./Pages/Dashboard";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navigation from "./Components/Navigation";
 import Footer from "./Components/Footer";
@@ -30,7 +30,7 @@ const App: FC = () => {
             <div className="flex-grow-1">
                 <Routes>
                     {/*Dashboard*/}
-                    <Route path={"/"} element={<Dashboard />} />
+                    <Route path={"/dashboardtennis"} element={<DashboardTennis />} />
 
                     {/*Über uns*/}
                     <Route path={"/verein"} element={<Verein/>}/>

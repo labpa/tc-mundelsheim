@@ -6,7 +6,7 @@ const Navigation = () => {
     return(
         <Navbar expand={"lg"} className={"bg-body-tertiary"} bg={"dark"} data-bs-theme={"dark"}>
             <Container>
-                <NavbarBrand href={"/"}>TC-Mundelsheim</NavbarBrand>
+                <NavbarBrand href={"/dashboardtennis"}>TC-Mundelsheim</NavbarBrand>
                 <NavbarToggle aria-controls={"basic-navbar-nav"}/>
                 <NavbarCollapse id={"basic-navbar-nav"}>
                     <Nav>

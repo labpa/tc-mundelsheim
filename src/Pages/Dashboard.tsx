@@ -3,7 +3,7 @@ import startbild from "../Images/startbild.jpg";
 import { Container, Image } from "react-bootstrap";
 import "../App.css";  // Füge eine CSS-Datei hinzu
 
-const Dashboard: FC = () => {
+const DashboardTennis: FC = () => {
     return (
         <Container
             className="container-sm d-flex flex-column justify-content-center align-items-center text-center p-3">
@@ -13,4 +13,4 @@ const Dashboard: FC = () => {
     );
 };
 
-export default Dashboard;
+export default DashboardTennis;

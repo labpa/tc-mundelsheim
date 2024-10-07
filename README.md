@@ -11,3 +11,7 @@
 ### Git
 + add ```git add *```
 + commit ```git commit -m " Deploy website"```
++ push ```git push```
+
+### Terminal
+* Deploy ```npm run deploy```

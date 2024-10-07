@@ -2,12 +2,25 @@ import React from "react";
 import { Container, Nav, Navbar, NavbarBrand, NavbarCollapse, NavbarToggle, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import '../App.css'; // Ensure you import your CSS file
+import logo from "../Images/logo.jpg"
 
 const Navigation = () => {
     return (
+
         <Navbar expand={"lg"} style={{ backgroundColor: "#EC7600" }}>
             <Container>
-                <NavbarBrand as={Link} to="/tc-mundelsheim">TC-Mundelsheim</NavbarBrand>
+                {/* NavbarBrand mit Logo */}
+                {/*todo -> Logo muss noch schön werden!*/}
+                <NavbarBrand as={Link} to="/tc-mundelsheim">
+                    <img
+                        src={logo}
+                        alt="Logo"
+                        width="50"  // Größe des Logos anpassen
+                        height="50"
+                        className="d-inline-block align-top"
+                    />{' '}
+                    TC-Mundelsheim
+                </NavbarBrand>
                 <NavbarToggle aria-controls={"basic-navbar-nav"} />
                 <NavbarCollapse id={"basic-navbar-nav"}>
                     <Nav>
@@ -43,6 +56,14 @@ const Navigation = () => {
                 </NavbarCollapse>
             </Container>
         </Navbar>
+
+
+
+
+
+
+
+
     );
 }
 

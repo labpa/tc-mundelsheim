@@ -15,3 +15,6 @@
 
 ### Terminal
 * Deploy ```npm run deploy```
+
+## TODO
++ Navigation.tsx -> Logo ordentlich zuschneiden und das aktuelle ersetzen.

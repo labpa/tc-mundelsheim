@@ -1,0 +1,18 @@
+/* Standardgröße des Bildes (z.B. für Desktop) */
+.responsive-image {
+    max-width: 70%;  /* Reduziert die Bildgröße auf 70% der Containerbreite */
+    height: auto;    /* Höhe wird proportional beibehalten */
+}
+
+/* Für mobile Ansichten */
+@media (max-width: 576px) {
+    .responsive-image {
+        max-width: 100%;  /* Bildgröße wird für Mobilgeräte auf 100% gesetzt */
+    }
+}
+
+
+.text-dark-orange {
+    color: #EC7600; /* Dunkles Orange */
+
+}

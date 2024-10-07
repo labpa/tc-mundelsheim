@@ -1,4 +1,6 @@
 import React, {FC} from "react";
+import {Container, Image} from "react-bootstrap";
+
 
 
 const Mitgliedschaft : FC = () => {
@@ -6,9 +8,12 @@ const Mitgliedschaft : FC = () => {
 
 
     return(
-        <div>
-            <h1>Mitgliedschaft</h1>
-        </div>
+        <Container className={"container-sm d-flex flex-column justify-content-center align-items-center text-center p-3"}>
+            <h1 className={"text-dark-orange"}>Mitgliedschaft</h1>
+            <h2>Mehr kommt noch</h2>
+
+
+        </Container>
     )
 }
 

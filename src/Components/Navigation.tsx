@@ -12,13 +12,13 @@ const Navigation = () => {
                 {/* NavbarBrand mit Logo */}
                 {/*todo -> Logo muss noch schön werden!*/}
                 <NavbarBrand as={Link} to="/tc-mundelsheim">
-                    <img
-                        src={logo}
-                        alt="Logo"
-                        width="50"  // Größe des Logos anpassen
-                        height="50"
-                        className="d-inline-block align-top"
-                    />{' '}
+                    {/*<img*/}
+                    {/*    src={logo}*/}
+                    {/*    alt="Logo"*/}
+                    {/*    width="50"  // Größe des Logos anpassen*/}
+                    {/*    height="50"*/}
+                    {/*    className="d-inline-block align-top"*/}
+                    {/*/>{' '}*/}
                     TC-Mundelsheim
                 </NavbarBrand>
                 <NavbarToggle aria-controls={"basic-navbar-nav"} />

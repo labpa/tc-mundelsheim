@@ -40,9 +40,9 @@ const Footer : FC<FooterProps> = () => {
                         © 2024 Copyright:&nbsp;
                         <a
                             className={"link-dark link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"}
-                            href="https://github.com/labpa"
+                            href="http://www.tc-mundelsheim.de/"
                         >
-                            Labpa
+                            TC-Mundelsheim
                         </a>
                     </p>
                 </footer>

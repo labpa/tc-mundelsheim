@@ -12,7 +12,6 @@ const Aktuelles : FC = () => {
             <h1 className={"text-dark-orange"}>Aktuelles</h1>
             <h2>Sonntag 07.07.2024 Match-Tie-Break Turnier auf der Anlage ab 14 Uhr </h2>
             <Image src={aktuelles} rounded className={"responsive-image"}/>
-
         </Container>
     )
 }

@@ -1,4 +1,5 @@
 import React, {FC} from "react";
+import {Container} from "react-bootstrap";
 
 
 const Ergebnisse : FC = () => {
@@ -6,9 +7,9 @@ const Ergebnisse : FC = () => {
 
 
     return(
-        <div>
-            <h1>Ergebnisse</h1>
-        </div>
+        <Container className={"container-sm d-flex flex-column justify-content-center align-items-center text-center p-3"}>
+            <h1 className={"text-dark-orange"}>Ergebnisse</h1>
+        </Container>
     )
 }
 

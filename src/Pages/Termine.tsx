@@ -8,8 +8,10 @@ const Termine : FC = () => {
 
 
     return(
-        <Container className="container-sm d-flex flex-column justify-content-center align-items-center text-center p-3">
-            <Image src={termine} rounded className="responsive-image" />
+        <Container
+            className="container-sm d-flex flex-column justify-content-center align-items-center text-center p-3">
+            <h1 className={"text-dark-orange"}>Termine</h1>
+            <Image src={termine} rounded className="responsive-image"/>
         </Container>
     )
 }

@@ -1,4 +1,5 @@
 import React, {FC} from "react";
+import {Container} from "react-bootstrap";
 
 
 const Tennisschule : FC = () => {
@@ -6,9 +7,9 @@ const Tennisschule : FC = () => {
 
 
     return(
-        <div>
-            <h1>Tennisschule</h1>
-        </div>
+        <Container className={"container-sm d-flex flex-column justify-content-center align-items-center text-center p-3"}>
+            <h1 className={"text-dark-orange"}>Tennisschule</h1>
+        </Container>
     )
 }
 

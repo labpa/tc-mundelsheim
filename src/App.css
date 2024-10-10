@@ -1,3 +1,7 @@
+* {
+    font-family: 'Helvetica', sans-serif;
+}
+
 /* Standardgröße des Bildes (z.B. für Desktop) */
 .responsive-image {
     max-width: 70%;  /* Reduziert die Bildgröße auf 70% der Containerbreite */

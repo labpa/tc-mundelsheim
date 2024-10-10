@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tc-mundelsheim/static/css/main.aa6042bb.css",
-    "main.js": "/tc-mundelsheim/static/js/main.876a5a35.js",
+    "main.js": "/tc-mundelsheim/static/js/main.15b00c9b.js",
     "static/js/453.0a3e6f20.chunk.js": "/tc-mundelsheim/static/js/453.0a3e6f20.chunk.js",
     "static/media/startbild.jpg": "/tc-mundelsheim/static/media/startbild.c0f5187d1ee76977902a.jpg",
     "static/media/Jugendflyer.jpg": "/tc-mundelsheim/static/media/Jugendflyer.4ab3c8c27b639c8c37d7.jpg",
@@ -10,11 +10,11 @@
     "static/media/aktuelles.jpg": "/tc-mundelsheim/static/media/aktuelles.f0cceba84a5ecb1695e8.jpg",
     "index.html": "/tc-mundelsheim/index.html",
     "main.aa6042bb.css.map": "/tc-mundelsheim/static/css/main.aa6042bb.css.map",
-    "main.876a5a35.js.map": "/tc-mundelsheim/static/js/main.876a5a35.js.map",
+    "main.15b00c9b.js.map": "/tc-mundelsheim/static/js/main.15b00c9b.js.map",
     "453.0a3e6f20.chunk.js.map": "/tc-mundelsheim/static/js/453.0a3e6f20.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.aa6042bb.css",
-    "static/js/main.876a5a35.js"
+    "static/js/main.15b00c9b.js"
   ]
 }
